@@ -34,7 +34,7 @@
 
 ### 再来说一下：Electron 和 Chromium 使用的是什么协议
 
-Licence 意为 许可证、协议......
+License 意为 许可证、协议......
 
 首先说一下，**Electron** 用的是**MIT License (MIT)**
 
