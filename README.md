@@ -26,7 +26,7 @@
 
 让我们先来看几张图：
 
-![image-20250622202659854](C:\Users\YaoDaoMing\AppData\Roaming\Typora\typora-user-images\image-20250622202659854.png)
+![image-20250622202659854](./image-20250622202659854.png)
 
 看看有没有什么熟悉的东西?
 
@@ -69,13 +69,13 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 首先找到我们的受害者！
 
-![image-20250622205820730](C:\Users\YaoDaoMing\AppData\Roaming\Typora\typora-user-images\image-20250622205820730.png)
+![image-20250622205820730](./image-20250622205820730.png)
 
 **右键它**，点击“**打开文件所在位置**”
 
-![image-20250622205956985](C:\Users\YaoDaoMing\AppData\Roaming\Typora\typora-user-images\image-20250622205956985.png)
+![image-20250622205956985](./image-20250622205956985.png)
 
-![image-20250622210124982](C:\Users\YaoDaoMing\AppData\Roaming\Typora\typora-user-images\image-20250622210124982.png)
+![image-20250622210124982](./image-20250622210124982.png)
 
 在成堆文件当中，可以看到这三个文件特别显眼，用红框框起来的，是受害者的主体，而用蓝色方框框起来的这两个文件就是electron和chromium的许可证，这两个文件不参与程序运行，但是根据开源社区的规定，自己做的程序引用其他开源项目需要将它的许可证保存下来放到文件目录里，我也写过这样子的electron程序，在我git clone和build的时候它会自动把这个许可证clone到本地，执行编译代码的时候，编译器会自动把这两个文件放到文件夹中。
 
@@ -83,11 +83,11 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 内容如下：
 
-![image-20250622210625325](C:\Users\YaoDaoMing\AppData\Roaming\Typora\typora-user-images\image-20250622210625325.png)
+![image-20250622210625325](./image-20250622210625325.png)
 
 chromium内核的许可证内容太多目前只展示一部分，其他人可以自己在文件目录中翻一下，我也会将该文件同时上传至GitHub中，你可以在GitHub中查看这两个文件的原文以及本稿的全部内容，（别忘记给我点个star！）
 
-![image-20250622210709813](C:\Users\YaoDaoMing\AppData\Roaming\Typora\typora-user-images\image-20250622210709813.png)
+![image-20250622210709813](./image-20250622210709813.png)
 
 # 谢谢！
 
